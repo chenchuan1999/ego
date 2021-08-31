@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 1150px;
+	margin:20px auto;
+	border: 1px solid #cccccc;
+	padding: 20px;
+}
+.title1 p{
+	font-size: 20px;
+}
+.sel{
+	height: 160px;
+}
+.sel label{
+	display: block;
+	margin:10px 0;
+}
+.daan span{
+	font-size: 20px;
+	padding:5px 8px;
+	color:green;
+	background: lightgreen;
+	border: 1px solid green;
+	border-radius: 4px;
+}
+.daan span.w{
+	background: #FCBABC;
+	color:red;
+	border-color:red;
+}
+.fenye{
+	margin:20px;
+}
+.fenye a{
+	display: inline-block;
+	width: 123px;
+	height: 47px;
+	background: #56B04B;
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 20px;
+	line-height: 47px;
+	text-align: center;
+	border-radius: 5px;
+}
+.tongji{
+	padding:20px 0;
+	border: 1px solid #cccccc;
+}
+.snav{
+	width: 1150px;
+	margin:10px auto 0;
+}
+.snav a{
+	text-decoration: none;
+	color:#333333;
+}
+.daan span.warn{
+	background: yellowgreen;
+}
+
+/* container */
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container{
+	width: 1160px;
+	margin: 20px auto;
+	height: 300px;
+	padding: 20px;
+	border: 1px solid #eee;
+	display: inline-block;
+
+}
+.item{
+    display: inline-block;
+    width: 70px;
+    height: 37px;
+	border: 1px solid #eee;
+	text-align: center;
+	cursor: pointer;
+    line-height: 36px;
+    position: relative;
+	font-size: 17px;
+}
+.item.active{
+	background: #e6e6e6;
+}
+.item.rightOk{
+	background: #00c356;
+    color: #fff;
+}
+.item.error{
+	background: #ff4c2d;
+    color: #fff;
+}
+
+/* .container .item:first-child{
+	background: #e6e6e6;
+} */
